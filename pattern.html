@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./pattern1.html" autocomplete="off">
+    <lable for="phonenumber">Phonenumber</lable>
+    <input type="tel" id="phonenumber" name="Phonenumber" pattern="[+][9][1] [6-9][0-9]{9}" title="enter correct format" placeholder="+91 xxxxxxxxxx" required>
+    <br><br>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="Email" pattern="[a-z0-9 @$%!&amp;*]+@gmail\.com" title="enter correct format" placeholder="name12@gmail.com" required>
+    <br><br>
+    <label for="date">Date</label>
+    <input type="text" id="date" name="Date" pattern="(0[1-9]|1[0-9]|2[0-9]|3[0-1])-(0[1-9]|1[0-2])-(19[0-9]{2}|20[0-5]{2})" title="enter correct format" placeholder="dd-mm-yyyy" required>
+    <br><br>
+   <input type="submit" value="submit">
+    </form>
+</body>
+</html>
